@@ -1,7 +1,6 @@
 body{
 	background:#eee;
 	margin:0;
-	width:1440px;
 }
 body>div{
 	width:450px;
@@ -21,6 +20,10 @@ div img{
 }
 img+p{
 	margin-left:13px;
+}
+	.border{
+		border-bottom: 1px solid #7f7f7f;
+	}
 }
 body div:nth-child(5) p{
 	margin-bottom:35px;
