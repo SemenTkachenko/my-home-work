@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	background: #f9f9f9;
+}
+
+.wrapper{
+	background: #ffffff;
+	width: 1060px;
+	margin: 0 auto;
+	padding: 52px 47px 0 48px;
+	box-shadow: 4px 0 3px -2px rgba(225,225,225,0.75),-4px 0 3px -2px rgba(225,225,225,0.75);
+	overflow: hidden;
+}
+
+.logo{
+	margin: 
+}
+
+.wrapper a{
+margin: 100;	
+}
+	
+             /*HEADER begin*/
+.header{
+margin-top: 42px;
+}   
+
+.header ul{
+	background: linear-gradient(to bottom,#5e5e5e,#424141);
+}
+
+.header li{
+	display: inline-block;
+}
+
+.header a{
+	display: inline-block;
+	height: 40px;
+	color: #fff;
+	text-decoration: none;
+	font: 14px/40px OpenSansRegular,Arial,sans-serif;
+	letter-spacing: normal;
+	padding: 0 25px;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+
+.header a:hover{
+background: linear-gradient(to bottom,#484848,#2a2a2a);
+border-right: 1px solid #838383;
+border-left: 1px solid #838383;
+height: 40px;
+}
+              /*SIDEBAR*/
+
+.menu{
+	float: left;
+	margin-top:42px; 
+}              
+
+.menu ul{
+	height: 247px;
+	width: 240px;
+	border: 1px solid #c8c8c8;
+}
+
+.menu li a{
+	display: inline-block;
+	height: 40px;
+	width: 100%;
+	color: #656363;
+	font: 13px/38px OpenSansRegular,Arial,sans-serif;
+	padding-left: 25px;
+	line-height: 40px;
+}
+
+.menu li{
+	border-bottom:1px solid #c8c8c8;
+
+}
+
+.menu li:last-child{
+	border: none;
+}
+
+.menu a:hover{
+	background: #f9f9f9;
+	padding-left: 35px;
+}
+
+.content{
+    margin: 40px 0 0 287px;
+}
+
+.content p{
+	color: #2c2c2c;
+	font: 13px/21px OpenSansRegular,Arial,sans-serif;
+	margin: 35px 0 0 25px;
+}
+
+.footer{
+	background: #e1e1e1;
+	height: 40px;
+	margin:65px 0;
+}
+
+.footer li{
+	display: inline-block;
+}
+
+.footer a{
+	display: inline-block;
+	height: 40px;
+	color: #2c2c2c;
+	text-decoration: none;
+	font: 13px/40px OpenSansRegular,Arial,sans-serif;
+	padding: 0 35px;
+}
+
+.footer a:hover{
+text-decoration: underline;
+}	
+
+.footer p{
+	float: right;
+	color: #2c2c2c;
+	font: 13px OpenSansRegular,Arial,sans-serif;
+	margin: 15px 25px 0 0;
+}
