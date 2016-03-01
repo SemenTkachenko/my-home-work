@@ -1,0 +1,37 @@
+body{
+	background:#eee;
+	margin:0;
+}
+body>div{
+	width:450px;
+	margin:10px auto 50px;
+	background:#fff;
+	padding:54px 40px 67px;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+}
+div h1{
+	text-align:center;
+	margin-bottom:35px;
+}
+div img{
+	width:150px;
+	height:120px;
+	margin-left:149px;
+}
+img+p{
+	margin-left:13px;
+}
+.border{
+	border-bottom: 1px solid #7f7f7f;
+	
+	}
+}
+body div:nth-child(5) p{
+	margin-bottom:35px;
+}
+ul{
+	padding-left:25px;
+}
+ul li{
+	margin-bottom:10px;
+}
